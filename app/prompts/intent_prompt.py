@@ -1,4 +1,4 @@
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 
 intent_prompt = PromptTemplate(
     input_variables=["query", "chat_history"],
@@ -19,7 +19,7 @@ Your task is to classify the **user's message** as one of the following:
 
 To classify correctly:
 - Look at the **last message from the assistant in chat history**.
-- Then, check if the user’s message is:
+- Then, check if the user's message is:
   - Just a greeting, thank you, acknowledgment, or a polite response → "ack"
   - A meaningful or content-based reply that answers the question asked by the assistant → "real"
 

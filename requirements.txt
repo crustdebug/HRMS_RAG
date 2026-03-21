@@ -1,8 +1,11 @@
 fastapi
-uvicorn
+uvicorn[standard]
 pydantic
-langchain
-langchain_huggingface
+langchain==0.3.13
+langchain-community==0.3.13
+langchain-core==0.3.28
+langchain-huggingface
+langchain-google-genai
 sentence-transformers
 tqdm
 python-dotenv

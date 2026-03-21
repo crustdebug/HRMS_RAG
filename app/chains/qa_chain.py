@@ -1,5 +1,5 @@
 from langchain.chains import ConversationalRetrievalChain
-from app.chains. __init__ import llm, retriever
+from app.chains import llm, retriever
 from app.prompts.qa_prompt import partial_prompt
 from app.utils.memory_manager import get_user_memory
 

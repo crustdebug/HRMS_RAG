@@ -1,4 +1,4 @@
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 from app.chains.config import assistant_name, company_name, role
 
 ack_response_prompt = PromptTemplate(
