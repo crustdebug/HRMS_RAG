@@ -1,6 +1,6 @@
 # HRMS RAG
 
-An **HR Management System chatbot** powered by **Retrieval-Augmented Generation (RAG)**. Ask HR-related questions in natural language and get answers grounded in your company's HR data.
+A **HR Management System chatbot** powered by **Retrieval-Augmented Generation (RAG)**. Ask HR-related questions in natural language and get answers grounded in your company's HR data.
 
 Built with **FastAPI**, **LangChain**, **FAISS**, and **Google Gemini** (free tier).
 
